@@ -1,0 +1,60 @@
+@import "../modules/all";
+
+.agenda{
+    background: $grey;
+    h1{
+        text-align: center;
+        margin: 30px 0 30px 0;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+        @media screen and(max-width:425px){
+            margin-bottom: 10px;
+        }
+    }
+    .description{
+        position: relative;
+        background: $white;
+        padding: 40px 40px 88px 40px;
+        border-radius: 5px;
+        @media screen and(max-width:425px){
+            margin-top:10px;
+            margin-bottom: 10px;
+        }
+        .features{
+            margin: 15px 0 15px 0;
+            i{
+                color: $green;
+                margin-right: 10px;
+                font-size: 30px;
+            }
+            strong{
+                font-weight: 600;
+            }
+        }
+        h2{
+            font-size: 40px;
+            margin-bottom: 30px;
+        }
+        p{
+            line-height: 28px;
+            font-size: 18px;
+        }
+        .price{
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+            left: 0;
+            background: $pink;
+            border-radius: 0 0 5px 5px;
+            p{
+                float: right;
+                color: $white;
+                margin: 0;
+                padding: 10px;
+                font-weight: 400;
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+@import "../modules/all";
+
+.faq{
+    background: $grey;
+    h1{
+        text-align: center;
+    }
+    .faq-item{
+        background: $grey_2;
+        padding: 15px;
+        border-radius: 5px;
+        border: 1px solid #d1d1d1;
+        &:hover{
+            cursor: pointer;
+        }
+        p{
+            display: inline-block;
+            margin: 0;
+            font-size: 18px;
+        }
+        .answer{
+            display: none;
+            .answer-text{
+                margin-top: 20px;
+                display: block;
+            }
+        }
+        .fas{
+            float: right;
+            margin-top: 5px;
+        }
+    }
+}

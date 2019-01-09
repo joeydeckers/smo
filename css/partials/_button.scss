@@ -1,0 +1,53 @@
+@import "../modules/all";
+
+.btn-cta{
+    background: $pink;
+    color: $white;
+    display: block;
+    margin: 65px auto;
+    border-radius: 25px;
+    padding: 10px 50px 10px;
+    font-size: 20px;
+    @media screen and (max-width:425px){
+        font-size: 13px;
+    }
+    @media screen and (max-width:320px){
+        padding: 10px 20px 10px;
+    }
+}
+
+.btn-cta-divider{
+    display: block;
+    color: $white;   
+    margin: 50px auto;
+    border-radius: 25px;
+    padding: 10px 50px 10px;
+    font-size: 20px;  
+    background: transparent;
+    border: 2px solid $white;
+    @media screen and (max-width:425px){
+        font-size: 13px;
+    }
+    @media screen and (max-width:320px){
+        padding: 10px 20px 10px;
+    }
+}
+
+.btn-cta-participant{
+    display: block;
+    color: $white;   
+    margin: 50px auto;
+    border-radius: 25px;
+    padding: 10px 50px 10px;
+    font-size: 20px;  
+    background: $pink;
+    @media screen and (max-width:425px){
+        font-size: 13px;
+    }
+    @media screen and (max-width:375px){
+        font-size: 12px;
+    }
+    @media screen and (max-width:320px){
+        padding: 10px 20px 10px;
+    }
+}

@@ -1,0 +1,33 @@
+@import "../modules/all";
+
+.hero-intro{
+    background-image: url('../img/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    h1{
+        text-align: center;
+        color: $white;
+        padding: 0 65px 0 65px;
+        @media screen and (max-width:425px){
+            font-size: 25px;
+        }
+    }
+    .points{
+        background: $grey;
+        .point-item{
+            padding: 20px 0 20px 0;
+            text-align: center;
+        }
+    }
+    .fas{
+        display: inline-block;
+        color: $pink;
+        font-size: 20px;
+    }
+    h5{
+        display: inline-block;
+        margin-bottom: 0;
+        margin-left: 10px;
+    }
+}

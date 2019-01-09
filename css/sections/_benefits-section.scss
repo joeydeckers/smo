@@ -1,0 +1,23 @@
+@import "../modules/all";
+
+.benefits{
+    h1{
+        text-align: center;
+    }
+    &-item{
+        display: block;
+        overflow: auto;
+        margin-bottom: 15px;
+        .fas{
+            float: left;
+            color: $green;
+            font-size: 25px;
+            margin-right: 10px;
+        }
+        p{
+            float: left;
+            width: 80%;
+            font-size: 18px;
+        }
+    }
+}

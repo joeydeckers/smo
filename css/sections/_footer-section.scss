@@ -1,0 +1,13 @@
+@import "../modules/all";
+
+footer{
+    background: $pink;
+    p{
+        text-align: center;
+        color: $white;
+    }
+    img{
+        display: block;
+        margin: 10px auto;
+    }
+}

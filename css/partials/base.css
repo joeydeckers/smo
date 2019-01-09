@@ -1,0 +1,143 @@
+.smo-logo {
+  width: 200px;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+.btn-cta {
+  background: #fc4772;
+  color: #fff;
+  display: block;
+  margin: 65px auto;
+  border-radius: 25px;
+  padding: 10px 50px 10px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 425px) {
+  .btn-cta {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .btn-cta {
+    padding: 10px 20px 10px;
+  }
+}
+
+.btn-cta-divider {
+  display: block;
+  color: #fff;
+  margin: 50px auto;
+  border-radius: 25px;
+  padding: 10px 50px 10px;
+  font-size: 20px;
+  background: transparent;
+  border: 2px solid #fff;
+}
+
+@media screen and (max-width: 425px) {
+  .btn-cta-divider {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .btn-cta-divider {
+    padding: 10px 20px 10px;
+  }
+}
+
+.btn-cta-participant {
+  display: block;
+  color: #fff;
+  margin: 50px auto;
+  border-radius: 25px;
+  padding: 10px 50px 10px;
+  font-size: 20px;
+  background: #fc4772;
+}
+
+@media screen and (max-width: 425px) {
+  .btn-cta-participant {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .btn-cta-participant {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .btn-cta-participant {
+    padding: 10px 20px 10px;
+  }
+}
+
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+video {
+  display: block;
+  margin: 35px auto;
+  max-width: 100%;
+}
+
+.ribbon-wrap {
+  position: absolute;
+  z-index: 1;
+  overflow: hidden;
+  top: -5px;
+  left: 5px;
+  width: 100px;
+  height: 100px;
+}
+
+.ribbon-wrap:before {
+  position: absolute;
+  z-index: -1;
+  top: -3px;
+  right: 20px;
+  content: '';
+  display: block;
+  border: 4px solid #81003d;
+}
+
+.ribbon-wrap:after {
+  position: absolute;
+  z-index: -1;
+  bottom: 23px;
+  left: 0px;
+  content: '';
+  display: block;
+  border: 5px solid #81003d;
+}
+
+.ribbon-wrap .ribbon {
+  position: relative;
+  right: 28px;
+  top: 10px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  display: block;
+  width: 110px;
+  padding: 3px 0;
+  text-align: center;
+  color: #ffffff;
+  background-color: #e7006d;
+  -webkit-box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.15);
+}
+
+.ribbon-wrap .ribbon p {
+  margin: 0;
+}
+
+section {
+  padding: 15px;
+}
+/*# sourceMappingURL=base.css.map */

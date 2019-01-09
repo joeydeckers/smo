@@ -1,0 +1,54 @@
+@import "../modules/all";
+
+
+.events{
+    h1{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        @media screen and (max-width:425px){
+            margin-top: 5px;
+        }
+    }
+    img{
+        float: right;
+        max-width: 100%;
+    }
+    .event{
+        padding: 30px;
+        color: $white;
+        border-radius: 10px;
+        @media screen and (max-width:425px){
+            margin-bottom: 20px;
+        }
+        .fas{
+            font-size: 30px;
+            margin-top: 20px;
+        }
+        h3{
+            font-size: 35px;
+            margin-top: 10px;
+        }
+        p{
+            margin-bottom:0;
+        }
+    }
+    .event-yellow{
+        background-image: url("../img/summer.png");
+        background-position: center;
+        background-size: cover;
+    }
+    .event-blue{
+        background-image: url("../img/regions.png");
+        background-position: center;
+        background-size: cover;
+    }
+    .event-red{
+        background-image: url("../img/congres.png");
+        background-position: center;
+        background-size: cover;
+    }
+}

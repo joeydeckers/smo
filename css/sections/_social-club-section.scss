@@ -1,0 +1,20 @@
+.smo-social-club{
+    margin-top: 60px;
+    h1{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+    p{
+        line-height: 32px;
+        font-size: 18px;
+        &:first-of-type{
+            margin-bottom: 30px;
+            margin-top: 40px;
+        }
+    }
+    img{
+        padding-bottom:70px;
+        max-width: 100%;
+    }
+}

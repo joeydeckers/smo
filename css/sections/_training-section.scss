@@ -1,0 +1,84 @@
+@import "../modules/all";
+
+.training{
+    background: $white;
+    .mt-5{
+        @media screen and(max-width: 425px){
+            margin-top: 0 !important;
+        }
+    }
+    h1{
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+    .training-card {
+        padding: 40px;
+        @media screen and(max-width: 768px){
+            margin-bottom: 20px;
+        }
+        @media screen and (max-width:425px){
+            margin-bottom: 20px;
+        }
+        h4{
+            text-align: center;
+            color: $white;
+        }
+        p{
+            text-align: center;
+            color: $white;
+            font-weight: 300;
+        }
+        .description{
+            margin-top: 15px;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .price{
+            font-size: 30px;
+            margin-bottom: -20px;
+            strong{
+                font-weight: 500;
+            }
+        }
+        &--fb{
+            background-image: url("../img/facebook_masterclass.png");
+            background-position: center;
+            background-size: cover;
+            border-radius: 10px;
+        }
+        &--insta{
+            background-image: url("../img/insta_masterclass.png");
+            background-position: center;
+            background-size: cover;    
+        }
+        &--linkedin{
+            background-image: url("../img/linkedin_masterclass.png");
+            background-position: center;
+            background-size: cover;    
+        }
+        &--pinterest{
+            background-image: url("../img/pinterest_masterclass.png");
+            background-position: center;
+            background-size: cover;    
+        }
+        &--snapchat{
+            background-image: url("../img/snapchat_masterclass.png");
+            background-position: center;
+            background-size: cover;   
+        }
+        &--youtube{
+            background-image: url("../img/youtube_masterclass.png");
+            background-position: center;
+            background-size: cover;  
+        }
+    border-radius: 10px;
+    }
+    .fab{
+        display: block;
+        color: $white;
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+}
